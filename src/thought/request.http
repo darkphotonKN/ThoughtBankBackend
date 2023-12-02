@@ -1,0 +1,32 @@
+# Docker
+
+### Get list of thoughts
+GET http://localhost:8080/api/thoughts
+
+### Create a thought
+POST http://localhost:8080/api/thoughts/create
+Content-Type: application/json
+
+{
+  "make": "Porsche",
+  "model": "Taycan",
+  "year": 2021,
+  "price": 34000,
+  "mileage": 10,
+  "lng": 34.0522,
+  "lat": -118.2437
+}
+
+# Local 
+
+### Get list of thoughts
+GET http://localhost:3000/api/thoughts
+
+### Create a thought
+POST http://localhost:3000/api/thoughts/create
+Content-Type: application/json
+
+{
+  "title": "test",
+  "content": "testerson"
+}
