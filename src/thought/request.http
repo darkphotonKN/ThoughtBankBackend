@@ -27,9 +27,9 @@ POST http://localhost:3000/api/thoughts/create
 Content-Type: application/json
 
 {
-  "title": "what is this",
-  "content": "Some dummy content"
+  "title": "Test2",
+  "content": "Thoughts3"
 }
 
 ### Delete thought
-DELETE http://localhost:3000/api/thoughts/delete?id=7
+DELETE http://localhost:3000/api/thoughts/delete?id=65a837ee-de0e-44f2-b55e-84478ff3e6d5

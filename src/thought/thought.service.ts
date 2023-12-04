@@ -24,6 +24,7 @@ export class ThoughtService {
     };
     const thought = this.repo.create(newThought);
     await this.repo.save(thought);
+    console.log('new post created!');
     return thought;
   }
 
