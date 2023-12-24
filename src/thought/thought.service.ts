@@ -32,7 +32,8 @@ export class ThoughtService {
   async deleteThought(id: string) {
     const thought = await this.repo.findOne({ where: { id } });
     if (!thought) {
-      throw new Error('Thought not found');
+      console.log(`thought id: ${id}`);
+      throw new Error('Thought not found, id');
     }
     await this.repo.remove(thought);
 

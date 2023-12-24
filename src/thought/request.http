@@ -32,4 +32,4 @@ Content-Type: application/json
 }
 
 ### Delete thought
-DELETE http://localhost:3000/api/thoughts/delete?id=65a837ee-de0e-44f2-b55e-84478ff3e6d5
+DELETE http://localhost:3000/api/thoughts/delete?id=64E68DA19-2E5A-4869-864A-13625B31CBA8
